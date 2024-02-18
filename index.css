@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+/*	overflow: hidden;*/
+	font-family: 'Poppins', sans-serif;
+}
+navbar{
+	z-index: 2;
+}
+nav ul li {
+	padding: 0 1.5em;
+}
+nav ul li a{
+	font-size: calc(0.5vw + 0.7rem);
+
+}
+#landing{
+	height: 100vh;
+}
+.landing-container{
+	margin-top: 5rem;
+	height: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.prof-pic img{
+	height: 20rem;
+	max-width: 20rem;
+
+}
+figcaption h3{
+	font-weight: 200;
+	font-style: lightl;
+	font-size: calc(1.1vw + 1.2vh + 1rem);
+	margin-bottom: 1em;
+	margin-top: 0.4em;
+}
+figcaption h2{
+	max-width: 100%;
+	font-weight: 300;
+	font-style: normal;
+	font-size: calc(1.3vw + 0.1vh +  0.8rem);
+	line-height: 1.3em;
+	text-justify: center;
+}
+/*Projects*/
+#my-projects{
+	height: 100vh;
+}
+#my-projects h1{
+	margin-top: 5rem;
+}
+#my-projects h1 a{
+	text-decoration: none;
+}
+/*Contact me*/
+#contact{
+	height: 100vh;
+}
+#contact a{
+	text-decoration: none;
+}
+.contact-container{
+	border: 2px solid black;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	background-color: lightblue;
+}
+.contact-text a{
+	color: black;
+	text-decoration: none;
+}
+button{
+	margin: 0 auto;
+	align-items: center;
+}
+/*Tools*/
+#tools{
+	height: 100vh;
+}
+
+.tools-link{
+	text-decoration: none;
+}
+.tools-img img{
+	height: 20rem;
+	width: 20rem;
+}
